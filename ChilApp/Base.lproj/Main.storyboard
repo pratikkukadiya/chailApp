@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GGH-be-r3T">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ExhibitionVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ExhibitionVC" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ExhibitionVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="100" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="8IZ-bQ-cbi">
+                                <rect key="frame" x="0.0" y="5" width="320" height="499"/>
+                                <color key="backgroundColor" red="0.93324202299118042" green="0.93337970972061157" blue="0.93322324752807617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8fp-Ec-cqc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Ma0-91-4dE"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vth-3T-Ys4">
+                                <rect key="frame" x="265" y="449" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vth-3T-Ys4" secondAttribute="height" multiplier="25:25" id="4tw-Sd-UC4"/>
+                                </constraints>
+                                <state key="normal" image="search_btn.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93324202300000003" green="0.93337970969999995" blue="0.93322324749999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8IZ-bQ-cbi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Lv-i3-kWO"/>
+                            <constraint firstAttribute="trailing" secondItem="Vth-3T-Ys4" secondAttribute="trailing" constant="15" id="IoH-2U-8pT"/>
+                            <constraint firstItem="8IZ-bQ-cbi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="ZvD-XP-mM4"/>
+                            <constraint firstAttribute="trailing" secondItem="8IZ-bQ-cbi" secondAttribute="trailing" id="jfB-qt-LC9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vth-3T-Ys4" secondAttribute="bottom" constant="15" id="mSk-7R-CIZ"/>
+                            <constraint firstItem="Vth-3T-Ys4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="45:568" id="uAj-b7-q0g"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8IZ-bQ-cbi" secondAttribute="bottom" id="y5X-s2-nC3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aUG-xt-5pw"/>
+                    <connections>
+                        <outlet property="tableViewObj" destination="8IZ-bQ-cbi" id="dbX-xi-JRT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="866.25" y="792.25352112676057"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="a98-tn-SOU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GGH-be-r3T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="8x8-uE-L5J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.11555009335279465" green="0.26183515787124634" blue="0.59191745519638062" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2xF-PH-3im"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfq-br-Cv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="786.97183098591552"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="search_btn.png" width="72" height="72"/>
+    </resources>
+</document>
