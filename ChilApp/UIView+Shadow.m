@@ -13,4 +13,18 @@
     self.layer.shadowRadius = 2.0; //Here your control your blur
 }
 
+-(void)Shadow
+{
+    float shadowSize = 10.0f;
+    UIBezierPath *shadowPath = [UIBezierPath bezierPathWithRect:CGRectMake(self.frame.origin.x - shadowSize / 2,
+                                                                           self.frame.origin.y - shadowSize / 2,
+                                                                           self.frame.size.width + shadowSize,
+                                                                           self.frame.size.height + shadowSize)];
+    self.layer.masksToBounds = NO;
+    self.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
+    self.layer.shadowOpacity = 0.8f;
+    self.layer.shadowPath = shadowPath.CGPath;
+}
+
 @end

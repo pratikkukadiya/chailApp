@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="408" id="KGk-i7-Jjw" customClass="DetailsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="399.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIj-e5-FF1" userLabel="bgview">
+                        <rect key="frame" x="5" y="0.0" width="310" height="399.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ggma.png" translatesAutoresizingMaskIntoConstraints="NO" id="wGM-EK-C7w">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gujrat Garment Manufactures Association" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oU-mR-9dR">
+                                <rect key="frame" x="10" y="200" width="290" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.44701242446899414" green="0.44708240032196045" blue="0.44700294733047485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUh-Pf-3Vt">
+                                <rect key="frame" x="10" y="260" width="290" height="139.5"/>
+                                <string key="text">GGMA, established in 1990 with just only 150 members is now having over 1500 members as of date. 
+
+GGMA is fortunate to receive an able support both from state and central government. We have renowned fashion design Institutes like NIFT providing excellent designers.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.44701242450000001" green="0.44708240030000002" blue="0.44700294730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4oU-mR-9dR" firstAttribute="top" secondItem="wGM-EK-C7w" secondAttribute="bottom" id="1hW-bB-rvM"/>
+                            <constraint firstAttribute="bottom" secondItem="MUh-Pf-3Vt" secondAttribute="bottom" id="CMC-pe-W65"/>
+                            <constraint firstAttribute="trailing" secondItem="MUh-Pf-3Vt" secondAttribute="trailing" constant="10" id="KXZ-hL-1ex"/>
+                            <constraint firstItem="wGM-EK-C7w" firstAttribute="leading" secondItem="uIj-e5-FF1" secondAttribute="leading" id="XV2-Ir-lok"/>
+                            <constraint firstAttribute="trailing" secondItem="4oU-mR-9dR" secondAttribute="trailing" constant="10" id="af2-hp-aWb"/>
+                            <constraint firstItem="MUh-Pf-3Vt" firstAttribute="top" secondItem="4oU-mR-9dR" secondAttribute="bottom" id="jRG-Ge-Bvj"/>
+                            <constraint firstItem="4oU-mR-9dR" firstAttribute="leading" secondItem="uIj-e5-FF1" secondAttribute="leading" constant="10" id="ooj-QR-yKs"/>
+                            <constraint firstItem="wGM-EK-C7w" firstAttribute="top" secondItem="uIj-e5-FF1" secondAttribute="top" id="rkK-Xu-S4w"/>
+                            <constraint firstItem="MUh-Pf-3Vt" firstAttribute="leading" secondItem="uIj-e5-FF1" secondAttribute="leading" constant="10" id="vK8-vT-ecP"/>
+                            <constraint firstAttribute="trailing" secondItem="wGM-EK-C7w" secondAttribute="trailing" id="w44-hz-zRl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uIj-e5-FF1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="2Ff-iQ-Ncf"/>
+                    <constraint firstItem="uIj-e5-FF1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CvJ-bi-zdg"/>
+                    <constraint firstItem="4oU-mR-9dR" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="60:400" id="b99-ca-k6t"/>
+                    <constraint firstAttribute="trailing" secondItem="uIj-e5-FF1" secondAttribute="trailing" constant="5" id="ih5-20-Wse"/>
+                    <constraint firstAttribute="bottom" secondItem="uIj-e5-FF1" secondAttribute="bottom" id="rq3-7y-B2L"/>
+                    <constraint firstItem="wGM-EK-C7w" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="200:400" id="zVH-f1-E8V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="viewBgObj" destination="uIj-e5-FF1" id="VDP-K9-C3N"/>
+            </connections>
+            <point key="canvasLocation" x="-11" y="-34"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ggma.png" width="320" height="255"/>
+    </resources>
+</document>
