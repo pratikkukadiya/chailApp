@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74154A111F270E2600667C1D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A0F1F270E2600667C1D /* MenuCell.m */; };
+		74154A121F270E2600667C1D /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74154A101F270E2600667C1D /* MenuCell.xib */; };
+		74154A191F27151800667C1D /* MapVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A181F27151800667C1D /* MapVc.m */; };
+		74154A1B1F27159300667C1D /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74154A1A1F27159300667C1D /* map.jpg */; };
+		74154A1F1F27161B00667C1D /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A1D1F27161B00667C1D /* ListCell.m */; };
+		74154A201F27161B00667C1D /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74154A1E1F27161B00667C1D /* ListCell.xib */; };
+		74154A241F27179A00667C1D /* ListSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A221F27179A00667C1D /* ListSubCell.m */; };
+		74154A251F27179A00667C1D /* ListSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74154A231F27179A00667C1D /* ListSubCell.xib */; };
+		74154A2C1F271CE000667C1D /* StallsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A2B1F271CE000667C1D /* StallsVc.m */; };
+		74154A301F271DF200667C1D /* StallsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74154A2E1F271DF200667C1D /* StallsCell.m */; };
+		74154A311F271DF200667C1D /* StallsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74154A2F1F271DF200667C1D /* StallsCell.xib */; };
 		743E1D791F25B99E00CF07C4 /* ExhibitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E1D751F25B99E00CF07C4 /* ExhibitionCell.m */; };
 		743E1D7A1F25B99E00CF07C4 /* ExhibitionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743E1D761F25B99E00CF07C4 /* ExhibitionCell.xib */; };
 		743E1D7B1F25B99E00CF07C4 /* ExhibitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E1D781F25B99E00CF07C4 /* ExhibitionVC.m */; };
@@ -25,6 +36,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74154A0E1F270E2600667C1D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		74154A0F1F270E2600667C1D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		74154A101F270E2600667C1D /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		74154A171F27151800667C1D /* MapVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVc.h; sourceTree = "<group>"; };
+		74154A181F27151800667C1D /* MapVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVc.m; sourceTree = "<group>"; };
+		74154A1A1F27159300667C1D /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		74154A1C1F27161B00667C1D /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		74154A1D1F27161B00667C1D /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		74154A1E1F27161B00667C1D /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		74154A211F27179A00667C1D /* ListSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSubCell.h; sourceTree = "<group>"; };
+		74154A221F27179A00667C1D /* ListSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSubCell.m; sourceTree = "<group>"; };
+		74154A231F27179A00667C1D /* ListSubCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListSubCell.xib; sourceTree = "<group>"; };
+		74154A2A1F271CE000667C1D /* StallsVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StallsVc.h; sourceTree = "<group>"; };
+		74154A2B1F271CE000667C1D /* StallsVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StallsVc.m; sourceTree = "<group>"; };
+		74154A2D1F271DF200667C1D /* StallsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StallsCell.h; sourceTree = "<group>"; };
+		74154A2E1F271DF200667C1D /* StallsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StallsCell.m; sourceTree = "<group>"; };
+		74154A2F1F271DF200667C1D /* StallsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StallsCell.xib; sourceTree = "<group>"; };
 		743E1D741F25B99E00CF07C4 /* ExhibitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExhibitionCell.h; sourceTree = "<group>"; };
 		743E1D751F25B99E00CF07C4 /* ExhibitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExhibitionCell.m; sourceTree = "<group>"; };
 		743E1D761F25B99E00CF07C4 /* ExhibitionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExhibitionCell.xib; sourceTree = "<group>"; };
@@ -61,6 +89,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74154A161F27151800667C1D /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				74154A1A1F27159300667C1D /* map.jpg */,
+				74154A171F27151800667C1D /* MapVc.h */,
+				74154A181F27151800667C1D /* MapVc.m */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		74154A291F271CE000667C1D /* Stalls */ = {
+			isa = PBXGroup;
+			children = (
+				74154A2A1F271CE000667C1D /* StallsVc.h */,
+				74154A2B1F271CE000667C1D /* StallsVc.m */,
+				74154A2D1F271DF200667C1D /* StallsCell.h */,
+				74154A2E1F271DF200667C1D /* StallsCell.m */,
+				74154A2F1F271DF200667C1D /* StallsCell.xib */,
+			);
+			path = Stalls;
+			sourceTree = "<group>";
+		};
 		743E1D731F25B99E00CF07C4 /* Exhibition */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +134,15 @@
 				743E1D801F25BBE900CF07C4 /* DetailsCell.h */,
 				743E1D811F25BBE900CF07C4 /* DetailsCell.m */,
 				743E1D821F25BBE900CF07C4 /* DetailsCell.xib */,
+				74154A0E1F270E2600667C1D /* MenuCell.h */,
+				74154A0F1F270E2600667C1D /* MenuCell.m */,
+				74154A101F270E2600667C1D /* MenuCell.xib */,
+				74154A1C1F27161B00667C1D /* ListCell.h */,
+				74154A1D1F27161B00667C1D /* ListCell.m */,
+				74154A1E1F27161B00667C1D /* ListCell.xib */,
+				74154A211F27179A00667C1D /* ListSubCell.h */,
+				74154A221F27179A00667C1D /* ListSubCell.m */,
+				74154A231F27179A00667C1D /* ListSubCell.xib */,
 			);
 			path = ExhibitionDetails;
 			sourceTree = "<group>";
@@ -111,6 +170,8 @@
 				74496C471F21C1DA00EA973B /* AppDelegate.m */,
 				74F7E12B1F21E1A3006EDAE2 /* UIView+Shadow.h */,
 				74F7E12C1F21E1A3006EDAE2 /* UIView+Shadow.m */,
+				74154A291F271CE000667C1D /* Stalls */,
+				74154A161F27151800667C1D /* MapView */,
 				743E1D7C1F25BA2000CF07C4 /* ExhibitionDetails */,
 				743E1D731F25B99E00CF07C4 /* Exhibition */,
 				74496C4C1F21C1DB00EA973B /* Main.storyboard */,
@@ -188,9 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74154A201F27161B00667C1D /* ListCell.xib in Resources */,
 				74496C531F21C1DB00EA973B /* LaunchScreen.storyboard in Resources */,
+				74154A251F27179A00667C1D /* ListSubCell.xib in Resources */,
+				74154A311F271DF200667C1D /* StallsCell.xib in Resources */,
 				74496C501F21C1DB00EA973B /* Assets.xcassets in Resources */,
 				74F7E12A1F21DD57006EDAE2 /* search_btn.png in Resources */,
+				74154A121F270E2600667C1D /* MenuCell.xib in Resources */,
+				74154A1B1F27159300667C1D /* map.jpg in Resources */,
 				74F7E1201F21CDEB006EDAE2 /* logo1.png in Resources */,
 				743E1D7A1F25B99E00CF07C4 /* ExhibitionCell.xib in Resources */,
 				743E1D841F25BBE900CF07C4 /* DetailsCell.xib in Resources */,
@@ -206,11 +272,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74154A191F27151800667C1D /* MapVc.m in Sources */,
+				74154A301F271DF200667C1D /* StallsCell.m in Sources */,
+				74154A2C1F271CE000667C1D /* StallsVc.m in Sources */,
 				743E1D7F1F25BA3800CF07C4 /* ExhibitionDetailsVC.m in Sources */,
 				74496C481F21C1DA00EA973B /* AppDelegate.m in Sources */,
+				74154A1F1F27161B00667C1D /* ListCell.m in Sources */,
+				74154A111F270E2600667C1D /* MenuCell.m in Sources */,
 				74496C451F21C1DA00EA973B /* main.m in Sources */,
 				743E1D7B1F25B99E00CF07C4 /* ExhibitionVC.m in Sources */,
 				743E1D791F25B99E00CF07C4 /* ExhibitionCell.m in Sources */,
+				74154A241F27179A00667C1D /* ListSubCell.m in Sources */,
 				743E1D831F25BBE900CF07C4 /* DetailsCell.m in Sources */,
 				74F7E12D1F21E1A3006EDAE2 /* UIView+Shadow.m in Sources */,
 			);
